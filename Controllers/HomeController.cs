@@ -8,36 +8,29 @@ namespace PulcsiShop.Controllers
 {         
      public class HomeController : Controller
      {
-            private readonly ILogger<HomeController> _logger;
-            private PulcsiShopDbContext _dbContext;
-            public HomeController(ILogger<HomeController> logger, PulcsiShopDbContext
-             dbContext)
-            {
-                _logger = logger;
-                _dbContext = dbContext;
-            }
-
-        /*public IActionResult Index()
+        private readonly ILogger<HomeController> _logger;
+        private PulcsiShopDbContext _dbContext;
+        public HomeController(ILogger<HomeController> logger, PulcsiShopDbContext
+         dbContext)
         {
-            Pulcsi pulcsi = new Pulcsi()
-            {
-                Name = "Valami",
-                Price = 3200,
-                Description = "Bla-bla . . .",
-                Size = "XL"
-            };
-            _dbContext.Pulcsik.Add(pulcsi);
-            _dbContext.SaveChanges();
-            return View(_dbContext.Pulcsik);         
-        }*/
-
-        public IActionResult Index(string category)
-        {
-            var pulcsik = _dbContext.Pulcsik.Include(s => s.Size).Where(x => category == null || x.Size.SizeDes == category);
-            ViewBag.SelectedCategory = category;
-            return View(pulcsik);
+            _logger = logger;
+            _dbContext = dbContext;
         }
 
+        public IActionResult Index(string category, string keyword)
+        {
+            var pulcsik = _dbContext.Pulcsik
+                .Include(p => p.Size)
+                .Where(p =>
+                    (string.IsNullOrEmpty(category) || p.Size.SizeDes == category) &&
+                    (string.IsNullOrEmpty(keyword) || p.Name.ToLower().Contains(keyword.ToLower()) || p.Description.ToLower().Contains(keyword.ToLower()) || p.Size.SizeDes.ToLower().Contains(keyword.ToLower()))
+                );
+
+            ViewBag.SelectedCategory = category;
+            ViewBag.Keyword = keyword;
+
+            return View(pulcsik);
+        }
 
         public IActionResult Privacy()
         {

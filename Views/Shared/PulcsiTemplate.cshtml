@@ -4,13 +4,11 @@
     <div class="card-body">
     <h5 class="card-title">
     @Model.Name
-        <button type="button" class="btn btn-primary">
-            <span class="badge badge-pill badge-primary">
-            <small>@Model.Price.ToString("c")</small>
-            </span>
-        </button>
+            <label style="font-weight: bold; font-size: 12px; margin-left: 24px; background-color: rgb(255, 65, 51); padding: 10px; color: white;">
+            @Model.Price.ToString("c")
+        </label>
         </h5>
-        <h6 class="card-subtitle mb-2 text-muted">@Model.Size</h6>
+        <h6 class="card-subtitle mb-2 text-muted">@Model.Size.SizeDes</h6>
         <p class="card-text">@Model.Description</p>
         <p class="card-text">
             <a asp-controller="cart" asp-action="buy" asp-route-id="@Model.PulcsiID">Buy Now</a>

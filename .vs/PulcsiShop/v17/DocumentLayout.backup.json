@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|c:\\users\\tomi\\documents\\suli\\felev4\\fullstack\\beadando\\pulcsishop\\views\\orderhandling\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|solutionrelative:views\\orderhandling\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|c:\\users\\tomi\\documents\\suli\\felev4\\fullstack\\beadando\\pulcsishop\\controllers\\orderhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|solutionrelative:controllers\\orderhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|c:\\users\\tomi\\documents\\suli\\felev4\\fullstack\\beadando\\pulcsishop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|c:\\users\\tomi\\documents\\suli\\felev4\\fullstack\\beadando\\pulcsishop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|c:\\users\\tomi\\documents\\suli\\felev4\\fullstack\\beadando\\pulcsishop\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|solutionrelative:models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|c:\\users\\tomi\\documents\\suli\\felev4\\fullstack\\beadando\\pulcsishop\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FEAF86D-91D6-4FB4-9900-776D0302FAD6}|PulcsiShop.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderHandling.cs",
+              "DocumentMoniker": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Controllers\\OrderHandling.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderHandling.cs",
+              "ToolTip": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Controllers\\OrderHandling.cs",
+              "RelativeToolTip": "Controllers\\OrderHandling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:01:00.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Views\\OrderHandling\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderHandling\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Views\\OrderHandling\\Index.cshtml",
+              "RelativeToolTip": "Views\\OrderHandling\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T13:51:39.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:37:19.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Models\\SeedData.cs",
+              "RelativeDocumentMoniker": "Models\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Models\\SeedData.cs",
+              "RelativeToolTip": "Models\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:50:54.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T22:43:34.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Tomi\\Documents\\Suli\\felev4\\FullStack\\beadando\\PulcsiShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T22:50:09.338Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

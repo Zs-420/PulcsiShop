@@ -1,0 +1,5 @@
+﻿@model IQueryable<Pulcsi>
+@foreach (var p in Model)
+{
+    <partial name="PulcsiTemplate" model="p" />
+}

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>PulcsiShop</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div class="bg-light text-dark p-2">
+            <span class="navbar-brand ml-2">
+                <div class="bg-light p-2">
+                    <img src="~/images/pulcsi.png" alt="Pulcsi logo" style="max-height: 100px;" />
+                    <span>
+                        PULCSI SHOP
+                        <partial name="_LoginPartial" />
+                    </span>                    
+                </div>
+            </span>
+        </div>
+        <div class="row m-1 p-1">
+            <div id="categories" class="col-3">
+                @await Component.InvokeAsync("NavigationMenu")
+            </div>
+            <div class="col-9">
+                @RenderBody()
+                @RenderSection("scripts", required: false)
+            </div>
+        </div>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - PulcsiShop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+        @* <img src="~/images/pulcsi.png" alt="Pulcsi"/> *@
+    </footer>
+</body>
+</html>

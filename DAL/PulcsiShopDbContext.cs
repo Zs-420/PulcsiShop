@@ -33,14 +33,14 @@ namespace PulcsiShop.DAL
             var appUser = new IdentityUser
             {
                 Id = ADMIN_ID,
-                Email = "admin@posta.hu",
+                Email = "admin@pulcsishop.hu",
                 EmailConfirmed = true,
-                UserName = "admin@posta.hu",
-                NormalizedUserName = "admin@posta.hu"
+                UserName = "admin@pulcsishop.hu",
+                NormalizedUserName = "admin@pulcsishop.hu"
             };
             //set user password
             PasswordHasher<IdentityUser> ph = new PasswordHasher<IdentityUser>();
-            appUser.PasswordHash = ph.HashPassword(appUser, "Jelszo123$");
+            appUser.PasswordHash = ph.HashPassword(appUser, "Pulcsi123$");
             //seed user
             builder.Entity<IdentityUser>().HasData(appUser);
             //set user role to admin

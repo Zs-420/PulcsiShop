@@ -24,7 +24,7 @@ namespace PulcsiShop.Controllers
             {
                 return NotFound();
             }
-            return View(order); // megjeleníti a törlés megerősítő nézetet
+            return View(order);
         }
 
         // POST: OrderHandling/Delete/5
@@ -43,7 +43,6 @@ namespace PulcsiShop.Controllers
         }
         public IActionResult Index()
         {
-            //var orders = _dbContext.Orders;
             var orders = _dbContext.Orders.ToList();
             return View(orders);
         }        

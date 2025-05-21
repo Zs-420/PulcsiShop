@@ -2,15 +2,15 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <h3>Kosár</h3>
+    <h3 style="font-weight:bold">Kosár</h3>
     <table width="80%" cellpading="2" cellspacing="2" border="1">
         <tr>
             <th>Lehetőségek</th>
-            <th>Sorszám</th>
-            <th><center>Termék neve</center></th>
-            <th>Ár</th>
+            <th>Termék neve</th>
+            <th>Ára</th>
             <th>Darabszám</th>
             <th>Összeg</th>
         </tr>
@@ -18,27 +18,25 @@
         {
             <tr width="80%">
                 <td>
-                    <a asp-controller="cart" asp-action="remove" asp-route-id="@item.Product.PulcsiID"> Eltávolítás </a>
-                </td>
-                <td>@item.Product.PulcsiID</td>
+                    <a asp-controller="cart" asp-action="remove" asp-route-id="@item.Product.PulcsiID" style="color:red; text-decoration:none"> Eltávolítás a kosárból</a>
+                </td> 
                 <td>@item.Product.Name</td>
-                <td>@item.Product.Price</td>
-                <td>@item.Quantity</td>
-                <td>@(item.Product.Price * item.Quantity)</td>
+                <td>@item.Product.Price Ft</td>
+                <td>@item.Quantity db</td>
+                <td>@(item.Product.Price * item.Quantity) Ft</td>
             </tr>
         }
         <tr>
-            <td align="right" colspan="6">Végösszeg: </td>
-            <td>@ViewBag.total</td>
+            <td align="right" colspan="6" style="font-weight:bold; font-size:20px" >Végösszeg: </td>
+            <td align="center">@ViewBag.total Ft</td>
         </tr>
     </table>
     <br />
-    <a asp-controller="home" asp-action="index">Vásárlás folytatása</a>
+    <a asp-controller="home" asp-action="index" style="font-size:20px; text-decoration:none">Vásárlás folytatása</a>
     <br />
-    @* <a asp-controller="home" asp-action="index">CheckOut</a> *@  
     @if (ViewBag.cart.Count != 0)
     {
-        <a asp-controller="Cart" asp-action="CheckOut">Fizetés</a>
+        <a asp-controller="Cart" asp-action="CheckOut" style="font-size:20px; text-decoration:none">Fizetés</a>
     }
 </body>
 </html>

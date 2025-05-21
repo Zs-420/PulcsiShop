@@ -54,7 +54,7 @@ namespace PulcsiShop.Controllers
             List<Item> cart = SessionHelper.GetObjectFromJson<List<Item>>(HttpContext.Session, "cart");
             int index = IsExist(id);
 
-            if (index != -1)    //Ellenőrizni kell a kosár tartalmát, ne legyen üres
+            if (index != -1)
             {
                 if (cart[index].Quantity > 1)
                 {
@@ -71,14 +71,6 @@ namespace PulcsiShop.Controllers
                 TempData["error"] = "A termék nem található a kosárban.";
                 return RedirectToAction("Index");
             }
-
-            /*
-            cart.RemoveAt(index);
-            SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", cart);
-
-            if (cart[index].Quantity > 1) cart[index].Quantity--;
-            else cart.RemoveAt(index);
-            */
 
             return RedirectToAction("Index");
         }

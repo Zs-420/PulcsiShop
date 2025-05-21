@@ -179,7 +179,148 @@ namespace PulcsiShop.Models
                     Description = "Made from recycled materials, soft and sustainable.",
                     Size = context.Sizes.First(x => x.SizeDes == "L"),
                     Price = 9999m
-                });
+                },
+                new Pulcsi
+                {
+                    Name = "Cloud Dream Pulcsi",
+                    Description = "As soft and light as a drifting cloud.",
+                    Size = context.Sizes.First(x => x.SizeDes == "L"),
+                    Price = 10299m
+                },
+                new Pulcsi
+                {
+                    Name = "Midnight Whisper Pulcsi",
+                    Description = "Dark, elegant, and whisper-soft for chilly evenings.",
+                    Size = context.Sizes.First(x => x.SizeDes == "M"),
+                    Price = 10999m
+                },
+                new Pulcsi
+                {
+                    Name = "Pumpkin Spice Pulcsi",
+                    Description = "Autumn vibes in every thread.",
+                    Size = context.Sizes.First(x => x.SizeDes == "S"),
+                    Price = 8999m
+                },
+                new Pulcsi
+                {
+                    Name = "Electric Pulse Pulcsi",
+                    Description = "Bold lines and vibrant energy—feel the pulse.",
+                    Size = context.Sizes.First(x => x.SizeDes == "XL"),
+                    Price = 11499m
+                },
+                new Pulcsi
+                {
+                    Name = "Vintage Vibes Pulcsi",
+                    Description = "Retro style meets modern comfort.",
+                    Size = context.Sizes.First(x => x.SizeDes == "XXL"),
+                    Price = 9799m
+                },
+                new Pulcsi
+                {
+                    Name = "Sunshine Yellow Pulcsi",
+                    Description = "Brighten your day with this yellow pullover.",
+                    Size = context.Sizes.First(x => x.SizeDes == "S"),
+                    Price = 8999m
+                },
+                new Pulcsi
+                {
+                    Name = "Arctic Breeze Pulcsi",
+                    Description = "Stay cool and cozy in frosty hues.",
+                    Size = context.Sizes.First(x => x.SizeDes == "M"),
+                    Price = 10499m
+                },
+                new Pulcsi
+                {
+                    Name = "Cinnamon Cozy Pulcsi",
+                    Description = "Warm, spicy, and perfect for lounging.",
+                    Size = context.Sizes.First(x => x.SizeDes == "L"),
+                    Price = 9399m
+                },
+                new Pulcsi
+                {
+                    Name = "Lava Flow Pulcsi",
+                    Description = "Fiery design for the bold at heart.",
+                    Size = context.Sizes.First(x => x.SizeDes == "XL"),
+                    Price = 11299m
+                },
+                new Pulcsi
+                {
+                    Name = "Whispering Pine Pulcsi",
+                    Description = "A forest-inspired classic for nature lovers.",
+                    Size = context.Sizes.First(x => x.SizeDes == "XXL"),
+                    Price = 9899m
+                },
+                new Pulcsi
+                {
+                    Name = "Moonlight Shadow Pulcsi",
+                    Description = "Elegant and mysterious, like the night itself.",
+                    Size = context.Sizes.First(x => x.SizeDes == "M"),
+                    Price = 9999m
+                },
+                new Pulcsi
+                {
+                    Name = "Starlight Spark Pulcsi",
+                    Description = "Shimmering threads catch every eye.",
+                    Size = context.Sizes.First(x => x.SizeDes == "L"),
+                    Price = 10699m
+                },
+                new Pulcsi
+                {
+                    Name = "Denim Dreams Pulcsi",
+                    Description = "A sweater with a denim vibe.",
+                    Size = context.Sizes.First(x => x.SizeDes == "S"),
+                    Price = 9599m
+                },
+                new Pulcsi
+                {
+                    Name = "Neon Nights Pulcsi",
+                    Description = "Vibe with the lights of the city.",
+                    Size = context.Sizes.First(x => x.SizeDes == "XL"),
+                    Price = 11199m
+                },
+                new Pulcsi
+                {
+                    Name = "Marshmallow Soft Pulcsi",
+                    Description = "Sweet and softly embracing feel.",
+                    Size = context.Sizes.First(x => x.SizeDes == "XXL"),
+                    Price = 9499m
+                },
+                new Pulcsi
+                {
+                    Name = "Stormy Sky Pulcsi",
+                    Description = "Dark tones with a dynamic style.",
+                    Size = context.Sizes.First(x => x.SizeDes == "M"),
+                    Price = 10099m
+                },
+                new Pulcsi
+                {
+                    Name = "Tangerine Pop Pulcsi",
+                    Description = "Fresh and vibrant burst of color.",
+                    Size = context.Sizes.First(x => x.SizeDes == "S"),
+                    Price = 8999m
+                },
+                new Pulcsi
+                {
+                    Name = "Galaxy Fade Pulcsi",
+                    Description = "Cosmic colors with down-to-earth comfort.",
+                    Size = context.Sizes.First(x => x.SizeDes == "L"),
+                    Price = 10899m
+                },
+                new Pulcsi
+                {
+                    Name = "Peachy Sunday Pulcsi",
+                    Description = "Relaxed and light for easy Sundays.",
+                    Size = context.Sizes.First(x => x.SizeDes == "XL"),
+                    Price = 9399m
+                },
+                new Pulcsi
+                {
+                    Name = "Sunshine Yellow Pulcsi",
+                    Description = "Brighten your day with this yellow pullover.",
+                    Size = context.Sizes.First(x => x.SizeDes == "XXL"),
+                    Price = 8999m
+                }
+                );
                 context.SaveChanges();
             }
         }

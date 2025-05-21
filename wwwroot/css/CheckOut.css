@@ -1,0 +1,65 @@
+﻿.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.col-md-4{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+input.form-control,
+textarea.form-control{
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea[name="Note"]{
+    height: 100px;
+    resize: vertical;
+}
+
+.btn-primary{
+    background-color: #ff4133;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-primary:hover{
+        background-color: #e9382b;
+    }
+
+a[href*="Index"]{
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    background-color: #6c757d;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+    a[href*="Index"]:hover{
+        background-color: #5a6268;
+    }
+
+#centered{
+    display: block;
+    margin: 20px auto 0 auto;
+    width: fit-content;
+}

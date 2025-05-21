@@ -27,7 +27,7 @@ namespace PulcsiShop.Models
 
         [Display(Name = "Megjegyzés a futárnak")]
         public string? Note { get; set; }
-
+        [Display(Name = "Végösszeg")]
         [BindNever]
         public int? TotalPrice { get; set; }
 

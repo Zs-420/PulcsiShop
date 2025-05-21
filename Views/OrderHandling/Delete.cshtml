@@ -3,7 +3,6 @@
 <h2>Biztosan törölni szeretné ezt a rendelést?</h2>
 
 <div>
-    <h4>Rendelés</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-3">Név</dt>
@@ -13,12 +12,12 @@
         <dd class="col-sm-9">@Model.Address</dd>
 
         <dt class="col-sm-3">Összeg</dt>
-        <dd class="col-sm-9">@Model.TotalPrice</dd>
+        <dd class="col-sm-9">@Model.TotalPrice Ft</dd>
     </dl>
 
     <form asp-action="Delete">
         <input type="hidden" asp-for="OrderId" />
         <input type="submit" value="Törlés" class="btn btn-danger" /> |
-        <a asp-action="Index">Vissza a listához</a>
+        <a asp-action="Index" style="font-size:18px; text-decoration:none">Vissza a listához</a>
     </form>
 </div>

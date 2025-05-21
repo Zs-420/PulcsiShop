@@ -152,9 +152,7 @@ C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\staticwebassets\msbuild.
 C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PulcsiShop.props
 C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PulcsiShop.props
 C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\scopedcss\bundle\PulcsiShop.styles.css
-C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\scopedcss\projectbundle\PulcsiShop.bundle.scp.css
 C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\PulcsiShop.csproj.Up2Date
 C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\PulcsiShop.dll
 C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\refint\PulcsiShop.dll
@@ -1262,3 +1260,4 @@ C:\Users\wwwhe\source\repos\PulcsiShop\obj\Debug\net8.0\refint\PulcsiShop.dll
 C:\Users\wwwhe\source\repos\PulcsiShop\obj\Debug\net8.0\PulcsiShop.pdb
 C:\Users\wwwhe\source\repos\PulcsiShop\obj\Debug\net8.0\PulcsiShop.genruntimeconfig.cache
 C:\Users\wwwhe\source\repos\PulcsiShop\obj\Debug\net8.0\ref\PulcsiShop.dll
+C:\Users\varga\source\repos\PulcsiShop\obj\Debug\net8.0\PulcsiShop.sourcelink.json

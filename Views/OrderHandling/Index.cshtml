@@ -4,7 +4,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h1>Rendelések</h1>
- @* TESZT ürese-e a lista*@
 <p>Rendelések száma: @Model?.Count()</p>
 
 
@@ -52,10 +51,10 @@
                     @Html.DisplayFor(modelItem => item.Note)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.TotalPrice)
+                    @Html.DisplayFor(modelItem => item.TotalPrice) Ft
                 </td>
                 <td>
-                    <a asp-action="Delete" asp-route-id="@item.OrderId">Törlés</a>
+                    <a asp-action="Delete" asp-route-id="@item.OrderId" style="color:red; text-decoration:none; font-size:18px">Törlés</a>
                 </td>
             </tr>
         }

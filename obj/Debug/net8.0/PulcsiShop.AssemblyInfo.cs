@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PulcsiShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc2767afce6ac018a16025e13f8a80844eb0940e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PulcsiShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PulcsiShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

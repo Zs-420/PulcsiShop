@@ -8,6 +8,6 @@ namespace PulcsiShop.Models
         public string? Description { get; set; }
         [Column(TypeName = "decimal(8,2)")]
         public decimal Price { get; set; }
-        public Size Size { get; set; }
+        public Size? Size { get; set; }
     }
 }

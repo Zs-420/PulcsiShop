@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\varga\\source\\repos\\PulcsiShop3.0\\PulcsiShop\\PulcsiShop.csproj": {}
+    "C:\\Users\\wwwhe\\source\\repos\\PulcsiShop\\PulcsiShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\varga\\source\\repos\\PulcsiShop3.0\\PulcsiShop\\PulcsiShop.csproj": {
+    "C:\\Users\\wwwhe\\source\\repos\\PulcsiShop\\PulcsiShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\varga\\source\\repos\\PulcsiShop3.0\\PulcsiShop\\PulcsiShop.csproj",
+        "projectUniqueName": "C:\\Users\\wwwhe\\source\\repos\\PulcsiShop\\PulcsiShop.csproj",
         "projectName": "PulcsiShop",
-        "projectPath": "C:\\Users\\varga\\source\\repos\\PulcsiShop3.0\\PulcsiShop\\PulcsiShop.csproj",
-        "packagesPath": "C:\\Users\\varga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\varga\\source\\repos\\PulcsiShop3.0\\PulcsiShop\\obj\\",
+        "projectPath": "C:\\Users\\wwwhe\\source\\repos\\PulcsiShop\\PulcsiShop.csproj",
+        "packagesPath": "C:\\Users\\wwwhe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wwwhe\\source\\repos\\PulcsiShop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\varga\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\wwwhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

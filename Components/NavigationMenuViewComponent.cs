@@ -7,14 +7,22 @@ namespace PulcsiShop.Components
     public class NavigationMenuViewComponent : ViewComponent
     {
         private PulcsiShopDbContext _dbContext;
+
         public NavigationMenuViewComponent(PulcsiShopDbContext dbContext)
         {
             _dbContext = dbContext;
         }
+
         public IViewComponentResult Invoke()
         {
-            //var categories = _dbContext.Pulcsik.Select(x => x.Size).Distinct().OrderBy(x => x);
-            var categories = _dbContext.Sizes.Select(x => x.SizeDes).OrderBy(x => x);
+            var sizeOrder = new List<string> { "XS", "S", "M", "L", "XL", "XXL", "XXXL" };
+
+            var categories = _dbContext.Sizes
+                .AsEnumerable()
+                .Select(x => x.SizeDes)
+                .OrderBy(x => sizeOrder.IndexOf(x.Trim().ToUpper()))
+                .ToList();
+
             return View(categories);
         }
     }
